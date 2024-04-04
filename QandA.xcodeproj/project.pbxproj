@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944E45302BBE443E00062B14 /* Humour-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 944E452F2BBE443E00062B14 /* Humour-Normal.ttf */; };
 		94552A8C2BBE3E9200090E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94552A8B2BBE3E9200090E89 /* AppDelegate.swift */; };
 		94552A8E2BBE3E9200090E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94552A8D2BBE3E9200090E89 /* SceneDelegate.swift */; };
 		94552A902BBE3E9200090E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94552A8F2BBE3E9200090E89 /* ViewController.swift */; };
 		94552A932BBE3E9200090E89 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 94552A922BBE3E9200090E89 /* Base */; };
 		94552A952BBE3E9300090E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94552A942BBE3E9300090E89 /* Assets.xcassets */; };
 		94552A982BBE3E9300090E89 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 94552A972BBE3E9300090E89 /* Base */; };
+		94D12DD02BBE567F00977FB3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D12DCF2BBE567F00977FB3 /* Question.swift */; };
+		94D12DD22BBE56A000977FB3 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D12DD12BBE56A000977FB3 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		944E452F2BBE443E00062B14 /* Humour-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Humour-Normal.ttf"; sourceTree = "<group>"; };
 		94552A882BBE3E9200090E89 /* QandA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QandA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94552A8B2BBE3E9200090E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94552A8D2BBE3E9200090E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		94552A942BBE3E9300090E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94552A972BBE3E9300090E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94552A992BBE3E9300090E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D12DCF2BBE567F00977FB3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = ../Question.swift; sourceTree = "<group>"; };
+		94D12DD12BBE56A000977FB3 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		94552A8A2BBE3E9200090E89 /* QandA */ = {
 			isa = PBXGroup;
 			children = (
+				944E452F2BBE443E00062B14 /* Humour-Normal.ttf */,
 				94552A8B2BBE3E9200090E89 /* AppDelegate.swift */,
 				94552A8D2BBE3E9200090E89 /* SceneDelegate.swift */,
 				94552A8F2BBE3E9200090E89 /* ViewController.swift */,
+				94D12DD12BBE56A000977FB3 /* QuestionData.swift */,
+				94D12DCF2BBE567F00977FB3 /* Question.swift */,
 				94552A912BBE3E9200090E89 /* Main.storyboard */,
 				94552A942BBE3E9300090E89 /* Assets.xcassets */,
 				94552A962BBE3E9300090E89 /* LaunchScreen.storyboard */,
@@ -128,6 +137,7 @@
 				94552A952BBE3E9300090E89 /* Assets.xcassets in Resources */,
 				94552A982BBE3E9300090E89 /* Base in Resources */,
 				94552A932BBE3E9200090E89 /* Base in Resources */,
+				944E45302BBE443E00062B14 /* Humour-Normal.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94552A902BBE3E9200090E89 /* ViewController.swift in Sources */,
+				94D12DD02BBE567F00977FB3 /* Question.swift in Sources */,
+				94D12DD22BBE56A000977FB3 /* QuestionData.swift in Sources */,
 				94552A8C2BBE3E9200090E89 /* AppDelegate.swift in Sources */,
 				94552A8E2BBE3E9200090E89 /* SceneDelegate.swift in Sources */,
 			);

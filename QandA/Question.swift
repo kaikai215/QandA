@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Question {
+    
+    let text: String
+    let option1: String
+    let option2: String
+    let correctAnswer: String
+    
+}
